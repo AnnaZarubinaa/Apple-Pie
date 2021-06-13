@@ -32,7 +32,6 @@ class ViewController: UIViewController {
             currentGame = Game(word: newWord, incorrectMovesRemaining: incorrectMovesAllowed, guessedLetters: [])
             enableLetterButtons(true)
             updateUI()
-            alert("You win!!!")
         } else {
             enableLetterButtons(false)
         }
